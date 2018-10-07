@@ -12,3 +12,9 @@ def bool_to_word bool
     return "No"
   end
 end
+
+# other solution
+
+def bool_to_word bool
+  bool ? 'Yes' : 'No'
+end
