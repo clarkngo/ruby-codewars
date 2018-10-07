@@ -28,6 +28,7 @@ end
 def get_planet_name(id)
   # This doesn't work; Fix it!
   name = ''
+  
   case id
     when 1 
       name = "Mercury"
@@ -46,5 +47,6 @@ def get_planet_name(id)
     when 8   
       name = "Neptune"
   end
+
   return name
 end
