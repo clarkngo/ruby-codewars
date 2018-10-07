@@ -31,12 +31,12 @@ def sum(numbers)
   return sum
 end
 
-# variation 1
+# other solution 1
 def sum(numbers)
   numbers.inject(0, :+)
 end
 
-#variation 2
+# other solution 2
 def sum(numbers)
   numbers.reduce(0, :+)
 end
