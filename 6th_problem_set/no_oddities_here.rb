@@ -21,3 +21,10 @@ def no_odds( values )
   end
   return nonOdds
 end
+
+
+# other solution
+
+def no_odds( values )
+  values.select &:even?
+end
