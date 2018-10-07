@@ -30,3 +30,7 @@ def sum(numbers)
   end
   return sum
 end
+
+def sum(numbers)
+  numbers.inject(0, :+)
+end
