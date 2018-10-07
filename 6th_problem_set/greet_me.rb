@@ -12,3 +12,9 @@ greet("JACK") # returns "Hello Jack!"
 def greet(name)
   return "Hello " + name.capitalize + "!"
 end
+
+# other solution
+
+def greet(name)
+  "Hello #{name.capitalize}!"
+end
