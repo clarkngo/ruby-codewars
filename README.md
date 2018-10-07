@@ -6,7 +6,6 @@ First Problem Set
 3. Double the Integer
 4. Regular Ball/Super Ball
 5. Broken Sequence
-
 Second Problem Set
 6. Remove Duplicates
 7. Color Ghost
